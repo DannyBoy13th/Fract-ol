@@ -13,7 +13,7 @@
 #ifndef FRACTOL_H
 # define FRACTOL_H
 # include "libft/libft.h"
-# include "mlx.h"
+# include "minilibx/mlx.h"
 # include "math.h"
 # define RESO_X 820
 # define RESO_Y 640

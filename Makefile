@@ -23,7 +23,6 @@ MLXCOMP = cd minilibx && make && cd ..
 LIBCLEAN = cd libft && make clean && cd ..
 MLXCLEAN = cd minilibx && make clean && cd ..
 LIBFCLEAN = cd libft && make fclean && cd ..
-MLXFCLEAN = cd minilibx && make fclean && cd ..
 
 MLGCC = gcc -o fractol -lmlx -framework OpenGL -framework AppKit
 
@@ -45,7 +44,6 @@ clean:
 
 fclean:	clean
 	$(LIBFCLEAN)
-	$(MLXFCLEAN)
 	rm -rf $(NAME)
 
 re:	fclean all
